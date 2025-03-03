@@ -70,7 +70,7 @@ with st.sidebar:
 # initiating chat engine
 
 llm_engine = ChatOllama(
-    model=selected_model, base_url="https://localhost:11434", temperature=0.3
+    model=selected_model, base_url="http://localhost:11434", temperature=0.3
 )
 
 # System prompt configuration
